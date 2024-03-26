@@ -1,0 +1,17 @@
+/* styles.css */
+
+/* Targeting the first item in the list */
+.my-list li:first-child {
+    color: red; /* Makes the text color of the first item red */
+}
+
+/* Targeting the third item in the list */
+.my-list li:nth-child(3) {
+    color: blue; /* Makes the text color of the third item blue */
+}
+
+/* General styling for the list */
+.my-list li {
+    font-size: 20px; /* Sets the font size for all list items */
+    margin-bottom: 5px; /* Adds some space below each item */
+}
